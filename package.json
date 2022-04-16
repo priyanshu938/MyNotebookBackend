@@ -4,8 +4,10 @@
   "description": "Your notebook on the cloud",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
   },
+  "engines": {"node": "14.15.3"},
   "author": "",
   "license": "ISC",
   "dependencies": {
